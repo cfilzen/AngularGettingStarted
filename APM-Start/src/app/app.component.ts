@@ -6,12 +6,12 @@ import {Component} from '@angular/core';
   selector: 'pm-root',
   template: `
   <div><h1>{{pageTitle}}</h1>
-    <div>Chris' First Component</div>
-  </div>
+    <pm-products></pm-products>
+  </div>  
   `
 })
 
 //Build the class
 export class AppComponent {
-  pageTitle: string  = 'Acme Product Management';
+  pageTitle: string  = 'Motorcycle Product Management';
 }
